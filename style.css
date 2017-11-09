@@ -1,0 +1,67 @@
+html {
+  height: 100vh;
+}
+
+body {
+  background-color: #E7EAF1;
+  background-image: url("assets/jackson-skyline-andrew-welch.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 100vh;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+input {
+  font-family: "Avenir Next", sans-serif;
+}
+
+.img-container {
+  width: 300px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.green-box {
+  background-color: rgba(94, 177, 110, .87);
+  width: 475px;
+  max-width: 100%;
+  margin: 0 auto;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+#mc_embed_signup {
+  clear:left;
+  font:14px Helvetica,Arial,sans-serif;
+}
+
+#mc_embed_signup div.mce_inline_error {
+  margin: 0;
+}
+
+.email-wrap {
+  padding: 0 10%;
+}
+
+.submit-wrap {
+  margin: 1rem auto;
+}
+
+.submit-btn {
+  background: #FBAD29;
+  background: linear-gradient(#FFC001, #DA8800);
+  color: #fff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  transition: background .15s ease-in-out;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(rgb(235,172,0), rgb(198,116,0));
+}
